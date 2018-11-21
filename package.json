@@ -1,0 +1,20 @@
+{
+  "name": "blog-app-2",
+  "version": "1.0.0",
+  "description": "package-lock for blog-app-2",
+  "main": "models.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgosh206/Blog-App-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgosh206/Blog-App-2/issues"
+  },
+  "homepage": "https://github.com/tgosh206/Blog-App-2#readme"
+}
