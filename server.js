@@ -21,7 +21,7 @@ app.get('/posts', (req, res) => {
     })
     .catch(err => {
       console.error(err);
-      res.status(500).json({ error: 'something is wrong' });
+      res.status(500).json({ error: 'internal server error' });
     });
 });
 
@@ -31,7 +31,7 @@ app.get('/posts/:id', (req, res) => {
     .then(post => res.json(post.serialize()))
     .catch(err => {
       console.error(err);
-      res.status(500).json({ error: 'something is wrong' });
+      res.status(500).json({ error: 'internal server error' });
     });
 });
 
